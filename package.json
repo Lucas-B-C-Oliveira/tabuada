@@ -1,0 +1,24 @@
+{
+  "name": "tabuada",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha ./tests/*.test.js --reporter spec",
+    "coverage": "nyc mocha ./tests/*.test.js --reporter spec"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nyc": "^15.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3",
+    "sinon": "^11.1.2"
+  }
+}
